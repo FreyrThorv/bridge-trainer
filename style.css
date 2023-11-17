@@ -18,9 +18,18 @@ label {
   color: #e6edf3;
 }
 
-/* Cards */
 img.card {
-  width: 130px !important;
+  width: 100px !important;
+}
+
+/* Cards */
+@media (min-width: 801px) {
+  img.card {
+    width: 130px !important;
+  }
+  body {
+    margin: 10px;
+  }
 }
 
 #hcp-form input {
